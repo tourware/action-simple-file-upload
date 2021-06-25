@@ -47,7 +47,8 @@ export default async function UploadFile(options: Options) {
       host: options.host,
       port: parseInt(options.port, 10),
       user: options.user,
-      password: options.password
+      password: options.password,
+      secure: true
     })
   })
 }
